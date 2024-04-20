@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="регистрация.css">
+<div>
+    <div class="main">
+        <ok>
+        <shell-header class ="header" logopyte>
+            <a logopyte class="header_logo" href="#">
+                <span logopyte class="logo-title">
+
+                </span>
+            </a>
+            <div logopyte class="header-menu">
+                <a logopyte routerlink="/name" routerlinkactive="is active" class="menu_link" href="#">
+                    <span logopyte class="icon icon_ticket">
+                    </span>
+                    НАЗВАНИЕ
+                </a>
+                <a logopyte routerlink="/bonuses" routerlinkactive="is active" class="menu_link" href="#">
+                    <span logopyte class="icon icon_bonus">
+                    </span> 
+                    Бонус
+                </a>
+                <a logopyte routerlink="/referrals" routerlinkactive="is active" class="menu_link" href="#">
+                    <span logopyte class="icon icon_support">
+                    </span> 
+                    Поддержка
+                </a>
+               
+            </div>
+<div class="container">
+    <form class="row justify-content-md-center" method="post" >
+        <div class="mb-3 col-md-auto" mb2>
+            <label for="exampleInputEmail1" class="form-label">Введите почту</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3 col-md-auto">
+            <label for="exampleInputPassword1" class="form-label">Пароль</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 col-md-auto form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Запомнить меня</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+    </form>
+</div>
